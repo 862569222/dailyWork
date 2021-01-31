@@ -15,13 +15,14 @@ public class Exception   {
             System.out.println("thread:"+Thread.currentThread().getName()+" ===》count："+count);
             try {
                 Thread.sleep(1000);
-            } catch (InterruptedException e) {
+                if (count==5){
+                    int i =1/0;//此处抛出异常，锁将会被释放，可以catch 让循环继续
+
+                }
+            } catch (java.lang.Exception e) {
                 e.printStackTrace();
             }
-            if (count==5){
-                int i =1/0;//此处抛出异常，锁将会被释放，可以catch 让循环继续
 
-            }
         }
     }
 

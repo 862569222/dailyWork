@@ -1,6 +1,5 @@
 package cn.daily.juc.sync;
 
-import com.sun.org.apache.xerces.internal.dom.PSVIAttrNSImpl;
 
 /**
  * 一个同步方法调用另一个同步方法，一个线程已经拥有某个对象的锁，再次申请的时候仍然会获得到该对象的锁，

@@ -1,7 +1,5 @@
 package cn.daily.juc.reentrant;
 
-import jdk.internal.org.objectweb.asm.tree.FieldInsnNode;
-
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 

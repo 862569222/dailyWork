@@ -1,6 +1,5 @@
 package cn.daily.jvm;
 
-import com.sun.imageio.stream.StreamFinalizer;
 
 public class User {
     private int id ;
