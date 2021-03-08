@@ -1,5 +1,7 @@
 package cn.daily.juc.container;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.List;
@@ -50,6 +52,13 @@ public class TestHashtable {
         System.out.println(end-start);
         System.out.println(hashtable.size());
 
+
+    }
+
+    @Test
+    public void t2(){
+        Hashtable hs = new Hashtable();
+        hs.put(null,"a");
 
     }
 
