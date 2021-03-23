@@ -1,7 +1,10 @@
 package cn.daily.jvm;
 
+
 public class GCTest {
     public static void main(String[] args) {
+        String s =new String();
+
         byte[] a1 = new byte[58000*1024];
 
         byte[] a2 = new byte[10000*1024];

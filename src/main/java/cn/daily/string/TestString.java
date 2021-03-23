@@ -1,6 +1,7 @@
 package cn.daily.string;
 
 import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,4 +45,14 @@ public class TestString {
         System.out.println(a);
         //change(strs);
     }
+    @Test
+    public void strings(){
+        String a ="zhaibo";//这个引用直接指向的是常量池中的地址
+        String b = new String("zhaibo");//这种方式是在堆中创建一个对象 对象中存储了指向这个字符串在常量池中的地址
+        String c = new String(a).intern();
+        System.out.println(c);
+        System.out.println(a==c);
+        System.out.println(a==b);
+    }
+
 }
