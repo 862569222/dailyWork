@@ -38,6 +38,7 @@ public class R2 {
     void m2(){
         boolean b = false;
         try {
+            System.out.println("尝试获取锁");
             b = lock.tryLock(5, TimeUnit.SECONDS);
             if(b){
                 System.out.println("成功拿到锁");

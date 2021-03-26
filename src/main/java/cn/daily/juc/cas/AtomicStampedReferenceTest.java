@@ -22,7 +22,7 @@ public class AtomicStampedReferenceTest {
         Student student1 = new Student(2L, "bbb", "bbb");
         //atomicStampedReference.set(student,1);
         if(atomicStampedReference.compareAndSet(student,student1,atomicStampedReference.getStamp(),atomicStampedReference.getStamp()+1)){
-            System.out.println(atomicStampedReference.getReference().toString()+ "/n"+atomicStampedReference.getStamp());
+            System.out.println(atomicStampedReference.getReference().toString()+ "\n"+atomicStampedReference.getStamp());
         }
     }
 
