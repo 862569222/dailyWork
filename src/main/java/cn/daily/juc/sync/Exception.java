@@ -19,7 +19,9 @@ public class Exception   {
                     int i =1/0;//此处抛出异常，锁将会被释放，可以catch 让循环继续
 
                 }
-            } catch (java.lang.Exception e) {
+            } /*catch (java.lang.Exception e) {
+                e.printStackTrace();
+            }*/ catch (InterruptedException e) {
                 e.printStackTrace();
             }
 

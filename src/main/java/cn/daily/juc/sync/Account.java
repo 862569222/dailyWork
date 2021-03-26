@@ -34,16 +34,16 @@ public class Account {
         }).start();
 
 
+        System.out.println("2查询余额"+Thread.currentThread().getName() + " :" + acc.getAccount());
         try {
             Thread.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        //System.out.println("1查询余额"+Thread.currentThread().getName() + " :" + acc.getAccount());
         new Thread(()->{
             Thread.State state = Thread.currentThread().getState();
             System.out.println("1查询余额"+Thread.currentThread().getName() + " :" + acc.getAccount());
-        }).start();
+        },"t1").start();
         System.out.println("当前线程状态："+Thread.currentThread().getState());
         try {
             Thread.sleep(5000);
