@@ -14,7 +14,7 @@ import java.util.concurrent.CountDownLatch;
  */
 public class Test3 {
     volatile   List list = new ArrayList();
-    static CountDownLatch t1Latch = new CountDownLatch(1);
+    static CountDownLatch t1Latch = new CountDownLatch(3);
     static CountDownLatch t2Latch = new CountDownLatch(1);
     /*synchronized*/  void add(Object object){
         list.add(object);
@@ -34,6 +34,11 @@ public class Test3 {
             for (int i = 0; i <10 ; i++) {
                 System.out.println(i);
                 test1.add(i);
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 if (test1.size() == 5) {
                     t2Latch.countDown();
                     try {

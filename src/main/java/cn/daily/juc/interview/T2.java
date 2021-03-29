@@ -14,7 +14,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @date 2020/8/26 21:30
  */
 public class T2<T> {
-    LinkedList<T> list = new LinkedList<T>();
+    volatile LinkedList<T> list = new LinkedList<T>();
     static int MAX = 10;
     static int count = 0;
     private  Lock lock  = new ReentrantLock();
