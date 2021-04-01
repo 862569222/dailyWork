@@ -96,4 +96,48 @@ public class T1 {
         return new ArrayList<>(people);
     }
 
+
+    @Test
+    public void t3(){
+        List<Integer> sourceList =  new ArrayList<>();
+        sourceList.add(1);
+        sourceList.add(1);
+        sourceList.add(2);
+        sourceList.add(3);
+        sourceList.add(4);
+
+        final int[] i = {0};
+        Integer reduce = sourceList.stream().map((e) -> e
+        ).reduce(0, (x, y) -> {
+            if (y == 1) {
+                return i[0]++;
+            } else {
+                return i[0];
+            }
+        });
+        System.out.println(reduce);
+
+        Optional<Integer> reduce1 = sourceList.stream().map(e -> e).reduce(Integer::sum);
+        System.out.println(reduce1.get());
+    }
+
+    @Test
+    public void t4(){
+        List<Integer> sourceList =  new ArrayList<>();
+        sourceList.add(1);
+        sourceList.add(1);
+        sourceList.add(2);
+        sourceList.add(2);
+        sourceList.add(3);
+        sourceList.add(4);
+
+
+        LinkedList<Integer> collect = sourceList.stream().map(e -> e).collect(Collectors.toCollection(LinkedList::new));
+        HashSet<Integer> collect1 = sourceList.stream().map(e -> e).collect(Collectors.toCollection(HashSet::new));
+        TreeSet<Integer> collect2 = sourceList.stream().map(e -> e).collect(Collectors.toCollection(TreeSet::new));
+        Iterator<Integer> iterator = collect2.iterator();
+        while (iterator.hasNext())
+            System.out.println(iterator.next());
+
+    }
 }
