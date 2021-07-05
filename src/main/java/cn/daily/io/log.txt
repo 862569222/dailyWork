@@ -1,0 +1,1115 @@
+
+ num     #instances         #bytes  class name
+----------------------------------------------
+   1:         15828       10513216  [B
+   2:         49301        5675352  [C
+   3:          3713        3162744  [I
+   4:         29371         704904  java.lang.String
+   5:         12372         692832  jdk.internal.org.objectweb.asm.Item
+   6:           493         404240  [Ljdk.internal.org.objectweb.asm.Item;
+   7:          5986         311672  [Ljava.lang.Object;
+   8:          1880         208192  java.lang.Class
+   9:           826         185024  jdk.internal.org.objectweb.asm.MethodWriter
+  10:          6019         144456  java.lang.StringBuilder
+  11:          5576         135896  [Ljava.lang.Class;
+  12:          3334         133360  java.lang.invoke.MethodType
+  13:          3334         106688  java.lang.invoke.MethodType$ConcurrentWeakInternSet$WeakEntry
+  14:          1654          92624  java.lang.invoke.MemberName
+  15:          1094          83712  [S
+  16:          2424          77568  java.util.concurrent.ConcurrentHashMap$Node
+  17:          2179          69728  java.util.HashMap$Node
+  18:           380          63840  jdk.internal.org.objectweb.asm.ClassWriter
+  19:           966          61824  jdk.internal.org.objectweb.asm.Label
+  20:          2186          52464  jdk.internal.org.objectweb.asm.ByteVector
+  21:           378          50912  [Ljava.util.HashMap$Node;
+  22:           478          42064  java.lang.reflect.Method
+  23:           380          36480  java.util.jar.JarFile$JarFileEntry
+  24:           535          34240  java.net.URL
+  25:           600          33600  jdk.internal.org.objectweb.asm.AnnotationWriter
+  26:          1390          33360  sun.misc.ProxyGenerator$ConstantPool$IndirectEntry
+  27:           829          33160  java.lang.ref.Finalizer
+  28:          1068          32576  [Ljava.lang.String;
+  29:           791          31640  java.util.TreeMap$Entry
+  30:            65          31600  [Ljava.util.concurrent.ConcurrentHashMap$Node;
+  31:           384          30720  java.lang.reflect.Constructor
+  32:           380          30400  java.util.zip.ZipEntry
+  33:           267          27768  java.lang.invoke.InnerClassLambdaMetafactory
+  34:          1150          27600  java.lang.StringBuffer
+  35:           392          21952  java.util.zip.ZipFile$ZipFileInputStream
+  36:           367          20552  java.util.zip.ZipFile$ZipFileInflaterInputStream
+  37:          1168          18688  java.lang.Object
+  38:          1130          18080  java.lang.Short
+  39:           368          17664  java.util.HashMap
+  40:           548          17536  jdk.internal.org.objectweb.asm.Type
+  41:           436          17440  java.lang.ref.SoftReference
+  42:           715          17160  java.util.ArrayList
+  43:           703          16872  java.net.URLClassLoader$1
+  44:           397          15880  java.util.WeakHashMap$Entry
+  45:           492          15744  java.util.AbstractList$Itr
+  46:           466          14912  java.util.ArrayList$Itr
+  47:           371          14840  java.util.LinkedHashMap$Entry
+  48:           228          14592  jdk.internal.org.objectweb.asm.FieldWriter
+  49:           601          14424  java.lang.invoke.MethodHandles$Lookup
+  50:           350          14000  java.lang.ClassNotFoundException
+  51:           193          13896  java.lang.reflect.Field
+  52:           240          13440  java.util.LinkedHashMap
+  53:           280          13440  jdk.internal.org.objectweb.asm.Frame
+  54:           542          13008  java.util.Collections$UnmodifiableCollection$1
+  55:           404          12928  java.io.File
+  56:           524          12576  java.util.Collections$UnmodifiableRandomAccessList
+  57:           277          12304  [Ljava.lang.invoke.LambdaForm$Name;
+  58:           509          12216  java.util.Arrays$ArrayList
+  59:           377          12064  java.lang.invoke.DirectMethodHandle
+  60:           360          11520  java.security.CodeSource
+  61:           354          11328  sun.misc.URLClassPath$JarLoader$2
+  62:           188          10528  java.lang.Class$ReflectionData
+  63:           187          10472  java.util.stream.ReferencePipeline$Head
+  64:           323          10336  java.lang.invoke.LambdaForm$Name
+  65:           264           8448  java.util.Hashtable$Entry
+  66:           136           7616  java.lang.invoke.LambdaFormEditor$Transform
+  67:           120           7200  [Ljava.lang.ref.SoftReference;
+  68:           112           7168  java.util.stream.ReferencePipeline$2
+  69:           168           7048  [Ljava.lang.reflect.Method;
+  70:           110           7040  java.lang.invoke.InvokerBytecodeGenerator
+  71:           436           6976  sun.misc.ProxyGenerator$ConstantPool$ValueEntry
+  72:           267           6408  java.lang.invoke.ConstantCallSite
+  73:           267           6408  java.lang.invoke.InfoFromMemberName
+  74:           267           6408  java.lang.invoke.InnerClassLambdaMetafactory$ForwardingMethodGenerator
+  75:           265           6360  [Ljava.lang.reflect.Constructor;
+  76:            99           6336  java.util.stream.ReferencePipeline$3
+  77:           256           6144  java.lang.Long
+  78:           172           5744  [Ljava.lang.annotation.Annotation;
+  79:           354           5664  sun.net.www.ParseUtil
+  80:           123           5624  [Ljava.lang.invoke.LambdaForm$BasicType;
+  81:           348           5568  java.lang.Integer
+  82:           172           5504  java.util.LinkedHashMap$LinkedValueIterator
+  83:           113           5424  java.lang.invoke.LambdaForm
+  84:           135           5400  java.util.HashMap$ValueIterator
+  85:           111           5328  java.nio.HeapByteBuffer
+  86:           130           5200  java.lang.invoke.MethodHandleImpl$IntrinsicMethodHandle
+  87:           102           4896  java.nio.HeapCharBuffer
+  88:            42           4880  [Ljava.util.Hashtable$Entry;
+  89:           201           4824  java.util.jar.Attributes$Name
+  90:           141           4784  [Ljdk.internal.org.objectweb.asm.Type;
+  91:           197           4728  sun.reflect.generics.factory.CoreReflectionFactory
+  92:           197           4728  sun.reflect.generics.parser.SignatureParser
+  93:           197           4728  sun.reflect.generics.scope.ClassScope
+  94:           197           4728  sun.reflect.generics.tree.SimpleClassTypeSignature
+  95:           197           4728  sun.reflect.generics.visitor.Reifier
+  96:           105           4552  [[C
+  97:           142           4544  java.util.LinkedHashMap$LinkedEntryIterator
+  98:           107           4280  java.math.BigInteger
+  99:           133           4256  java.util.LinkedHashMap$LinkedKeyIterator
+ 100:           132           4224  java.lang.invoke.BoundMethodHandle$Species_L
+ 101:           130           4160  java.lang.invoke.SimpleMethodHandle
+ 102:            11           4136  java.lang.Thread
+ 103:           256           4096  java.lang.Byte
+ 104:           126           4032  java.util.stream.Collectors$CollectorImpl
+ 105:            69           3864  java.lang.invoke.MethodTypeForm
+ 106:           111           3552  java.util.stream.ReduceOps$3
+ 107:           111           3552  java.util.stream.ReduceOps$3ReducingSink
+ 108:           143           3432  sun.reflect.NativeConstructorAccessorImpl
+ 109:           138           3312  java.lang.invoke.LambdaForm$NamedFunction
+ 110:            59           3304  sun.misc.URLClassPath$JarLoader
+ 111:           197           3152  [Lsun.reflect.generics.tree.TypeArgument;
+ 112:           197           3152  sun.reflect.generics.tree.ClassTypeSignature
+ 113:            98           3136  java.lang.reflect.Proxy$Key1
+ 114:           130           3120  sun.misc.ProxyGenerator$ExceptionTableEntry
+ 115:            97           3104  java.util.ArrayList$ArrayListSpliterator
+ 116:            47           3008  java.util.concurrent.ConcurrentHashMap
+ 117:            29           2928  [Ljava.lang.invoke.MethodHandle;
+ 118:           120           2880  java.net.Parts
+ 119:            51           2856  java.lang.Package
+ 120:           117           2808  java.lang.invoke.InnerClassLambdaMetafactory$1
+ 121:            34           2720  [Ljava.util.WeakHashMap$Entry;
+ 122:            56           2688  java.util.logging.LogManager$LoggerWeakRef
+ 123:           112           2688  java.util.stream.ReferencePipeline$2$1
+ 124:            54           2592  sun.misc.ProxyGenerator$MethodInfo
+ 125:            11           2480  [Z
+ 126:           103           2472  java.io.ExpiringCache$Entry
+ 127:            99           2376  java.util.stream.ReferencePipeline$3$1
+ 128:            98           2352  sun.reflect.annotation.AnnotationInvocationHandler
+ 129:            98           2352  sun.reflect.annotation.AnnotationParser$1
+ 130:           143           2288  sun.reflect.DelegatingConstructorAccessorImpl
+ 131:            70           2240  java.io.DataOutputStream
+ 132:            40           2240  sun.nio.cs.UTF_8$Encoder
+ 133:            20           2080  sun.net.www.protocol.file.FileURLConnection
+ 134:            43           2064  sun.util.locale.LocaleObjectCache$CacheEntry
+ 135:           128           2048  java.lang.Character
+ 136:           127           2032  java.lang.invoke.LambdaFormEditor
+ 137:            83           1992  java.lang.Class$MethodArray
+ 138:            27           1944  java.util.logging.Logger
+ 139:           119           1904  java.util.HashMap$Values
+ 140:            58           1856  java.lang.invoke.DirectMethodHandle$Special
+ 141:            29           1856  java.util.jar.JarFile
+ 142:           114           1824  java.util.Optional
+ 143:            52           1664  java.util.logging.LogManager$LogNode
+ 144:            34           1632  java.util.WeakHashMap
+ 145:            28           1552  [J
+ 146:            97           1552  java.util.LinkedHashSet
+ 147:            38           1520  sun.misc.ProxyGenerator$ProxyMethod
+ 148:            63           1512  java.io.ByteArrayOutputStream
+ 149:            61           1464  sun.misc.URLClassPath$3
+ 150:            20           1440  java.util.regex.Pattern
+ 151:            44           1408  java.lang.ref.ReferenceQueue
+ 152:            22           1408  java.util.regex.Matcher
+ 153:            35           1400  sun.nio.cs.UTF_8$Decoder
+ 154:            87           1392  java.util.Collections$UnmodifiableSet
+ 155:            27           1296  java.util.stream.StreamSpliterators$WrappingSpliterator
+ 156:             4           1288  [[Ljava.lang.Object;
+ 157:            39           1280  [Ljava.math.BigInteger;
+ 158:            32           1280  java.io.ObjectStreamField
+ 159:            39           1248  java.util.Spliterators$ArraySpliterator
+ 160:            26           1248  java.util.zip.Inflater
+ 161:            76           1216  java.util.HashSet
+ 162:            38           1216  sun.misc.ProxyGenerator$FieldInfo
+ 163:            74           1184  java.util.LinkedHashMap$LinkedKeySet
+ 164:            29           1160  java.math.BigDecimal
+ 165:            20           1120  [Ljava.util.regex.Pattern$GroupHead;
+ 166:            28           1120  java.util.ArrayList$SubList
+ 167:            28           1120  java.util.ArrayList$SubList$1
+ 168:            21           1096  [Lsun.invoke.util.Wrapper;
+ 169:            24           1088  [Ljava.lang.reflect.Field;
+ 170:            27           1080  sun.util.locale.BaseLocale$Key
+ 171:             1           1040  [Ljava.lang.Byte;
+ 172:             1           1040  [Ljava.lang.Integer;
+ 173:             1           1040  [Ljava.lang.Long;
+ 174:             1           1040  [Ljava.lang.Short;
+ 175:            31            992  java.util.zip.ZipCoder
+ 176:            24            960  java.security.ProtectionDomain
+ 177:            15            960  java.util.stream.SortedOps$OfRef
+ 178:            39            936  java.util.ArrayDeque
+ 179:            29            928  java.lang.ref.WeakReference
+ 180:            29            928  java.util.concurrent.locks.ReentrantLock$NonfairSync
+ 181:            29            928  java.util.logging.LogManager$LoggerContext$1
+ 182:            28            896  java.util.concurrent.ConcurrentHashMap$ForwardingNode
+ 183:            27            864  com.intellij.rt.debugger.agent.CaptureAgent$InstrumentPoint
+ 184:            21            840  java.util.HashMap$EntryIterator
+ 185:            33            792  sun.security.action.GetPropertyAction
+ 186:            16            768  java.util.Hashtable
+ 187:            19            760  java.util.Spliterators$IteratorSpliterator
+ 188:            31            744  sun.misc.FileURLMapper
+ 189:            46            736  java.lang.ref.ReferenceQueue$Lock
+ 190:            18            720  java.lang.invoke.DirectMethodHandle$Interface
+ 191:            18            720  java.security.AccessControlContext
+ 192:            22            704  java.lang.reflect.WeakCache$CacheKey
+ 193:            22            704  java.util.concurrent.ConcurrentHashMap$ReservationNode
+ 194:            21            672  java.util.Locale
+ 195:            12            672  java.util.ResourceBundle$CacheKey
+ 196:            28            672  java.util.concurrent.CopyOnWriteArrayList
+ 197:            21            672  sun.util.locale.BaseLocale
+ 198:            27            648  java.util.logging.LogManager$5
+ 199:            20            640  java.util.Vector
+ 200:             3            624  [Ljava.lang.invoke.LambdaForm;
+ 201:            26            624  java.util.zip.ZStreamRef
+ 202:            26            624  org.junit.platform.commons.logging.LoggerFactory$DelegatingLogger
+ 203:            19            608  java.util.regex.Pattern$Curly
+ 204:            25            600  java.lang.RuntimePermission
+ 205:            25            600  java.util.Locale$LocaleKey
+ 206:            21            584  [Ljava.lang.annotation.ElementType;
+ 207:            36            576  org.junit.platform.engine.TestDescriptor$$Lambda$113/1684792003
+ 208:             4            576  sun.reflect.MethodAccessorGenerator
+ 209:            10            560  sun.invoke.util.Wrapper
+ 210:             4            544  [D
+ 211:            17            544  java.io.FilePermission
+ 212:            17            544  java.security.Permissions
+ 213:             4            536  [Ljava.lang.invoke.MemberName;
+ 214:             1            528  [Ljava.lang.Character;
+ 215:            16            512  sun.reflect.ClassFileAssembler
+ 216:            21            504  java.lang.Class$1
+ 217:            21            504  java.lang.Class$AnnotationData
+ 218:            21            504  java.util.regex.Pattern$GroupHead
+ 219:            21            504  java.util.regex.Pattern$GroupTail
+ 220:            31            496  sun.misc.URLClassPath$JarLoader$1
+ 221:            31            496  sun.reflect.ConstantPool
+ 222:            15            480  java.security.BasicPermissionCollection
+ 223:            15            480  java.util.jar.Manifest$FastInputStream
+ 224:            15            480  java.util.stream.SortedOps$SizedRefSortingSink
+ 225:            20            480  sun.net.www.MessageHeader
+ 226:            29            464  java.util.concurrent.locks.ReentrantLock
+ 227:            11            440  [Ljava.util.Formatter$Flags;
+ 228:            11            440  java.io.FileDescriptor
+ 229:            11            440  java.util.Formatter$FormatSpecifier
+ 230:             1            432  [[[C
+ 231:             9            432  java.lang.invoke.LambdaFormBuffer
+ 232:             9            432  java.util.Properties
+ 233:            18            432  java.util.regex.Pattern$TreeInfo
+ 234:            27            432  java.util.stream.AbstractPipeline$$Lambda$211/2128029086
+ 235:            27            432  org.junit.jupiter.engine.extension.MutableExtensionRegistry$$Lambda$209/482082765
+ 236:            27            432  org.junit.jupiter.engine.extension.MutableExtensionRegistry$$Lambda$210/667821226
+ 237:            18            432  sun.misc.MetaIndex
+ 238:            13            416  java.util.stream.FindOps$FindOp
+ 239:            17            408  java.util.Collections$SynchronizedSet
+ 240:            17            408  java.util.regex.Pattern$Single
+ 241:            17            408  java.util.stream.Streams$2
+ 242:            17            408  java.util.stream.Streams$ConcatSpliterator$OfRef
+ 243:            25            400  com.sun.proxy.$Proxy0
+ 244:            10            400  java.lang.invoke.DirectMethodHandle$Accessor
+ 245:            10            400  java.util.IdentityHashMap
+ 246:            10            400  sun.misc.URLClassPath$1
+ 247:            24            384  [Ljava.security.Principal;
+ 248:            16            384  java.io.FilePermissionCollection
+ 249:             1            384  java.lang.ref.Finalizer$FinalizerThread
+ 250:             6            384  java.nio.DirectByteBuffer
+ 251:            24            384  java.security.ProtectionDomain$Key
+ 252:            12            384  java.util.ResourceBundle$LoaderReference
+ 253:             1            384  java.util.logging.LogManager$Cleaner
+ 254:            16            384  java.util.regex.Pattern$Start
+ 255:            16            384  java.util.stream.MatchOps$$Lambda$20/1690254271
+ 256:            16            384  java.util.stream.MatchOps$1MatchSink
+ 257:            16            384  java.util.stream.MatchOps$MatchOp
+ 258:             8            384  sun.misc.ProxyGenerator
+ 259:            16            384  sun.reflect.ByteVectorImpl
+ 260:             1            376  java.lang.ref.Reference$ReferenceHandler
+ 261:            15            360  java.util.function.Function$$Lambda$89/520022247
+ 262:            15            360  java.util.jar.Manifest
+ 263:            22            352  java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$213/904861801
+ 264:            12            344  [Ljava.io.ObjectStreamField;
+ 265:            14            336  java.lang.invoke.LambdaFormEditor$Transform$Kind
+ 266:             6            336  java.nio.DirectLongBufferU
+ 267:            21            336  java.util.Formatter$Flags
+ 268:             7            336  java.util.Hashtable$Enumerator
+ 269:            10            320  java.lang.NoSuchMethodError
+ 270:            10            320  java.lang.OutOfMemoryError
+ 271:            10            320  java.lang.invoke.InvokerBytecodeGenerator$CpPatch
+ 272:             5            320  java.text.DecimalFormatSymbols
+ 273:             8            320  org.junit.platform.launcher.TestIdentifier
+ 274:            13            312  java.util.stream.FindOps$FindSink$OfRef
+ 275:             9            304  [Ljava.lang.invoke.LambdaForm$NamedFunction;
+ 276:            19            304  com.sun.proxy.$Proxy1
+ 277:             3            296  [Ljava.net.URL;
+ 278:            18            288  com.sun.proxy.$Proxy3
+ 279:            12            288  java.lang.invoke.Invokers
+ 280:             6            288  java.util.StringTokenizer
+ 281:             9            288  java.util.logging.Level
+ 282:             6            288  sun.nio.cs.StreamDecoder
+ 283:             4            288  sun.reflect.DelegatingClassLoader
+ 284:             7            280  [Ljava.util.stream.StreamOpFlag$Type;
+ 285:             7            280  [Ljava.util.stream.StreamOpFlag;
+ 286:             5            280  sun.nio.cs.ext.DoubleByte$Decoder
+ 287:            17            272  com.sun.proxy.$Proxy2
+ 288:            17            272  java.io.FilePermission$1
+ 289:            11            264  java.util.LinkedList$Node
+ 290:             3            256  [Ljava.io.File;
+ 291:             8            256  java.io.FileInputStream
+ 292:             8            256  java.lang.reflect.WeakCache$CacheValue
+ 293:             8            256  java.lang.reflect.WeakCache$Factory
+ 294:             8            256  java.util.StringJoiner
+ 295:             8            256  java.util.regex.Pattern$Branch
+ 296:             8            256  org.junit.platform.engine.UniqueId
+ 297:             8            256  sun.misc.ProxyGenerator$PrimitiveTypeInfo
+ 298:             8            256  sun.reflect.annotation.AnnotationType
+ 299:             6            240  [Ljava.lang.invoke.BoundMethodHandle$SpeciesData;
+ 300:            10            240  [Ljava.util.Enumeration;
+ 301:             5            240  java.io.BufferedReader
+ 302:            10            240  java.lang.annotation.ElementType
+ 303:            10            240  java.net.URLClassLoader$3
+ 304:            10            240  java.util.Formatter$FixedString
+ 305:             5            240  java.util.ResourceBundle$BundleReference
+ 306:            15            240  java.util.jar.Attributes
+ 307:            10            240  java.util.regex.Pattern$Slice
+ 308:            10            240  sun.misc.CompoundEnumeration
+ 309:             6            240  sun.misc.URLClassPath$2
+ 310:             9            224  [Ljava.util.regex.Pattern$Node;
+ 311:             9            216  java.util.logging.Level$KnownLevel
+ 312:             9            216  java.util.regex.Pattern$BitClass
+ 313:             9            216  sun.util.logging.PlatformLogger$Level
+ 314:             5            200  java.lang.invoke.BoundMethodHandle$SpeciesData
+ 315:             5            200  java.lang.invoke.DirectMethodHandle$Constructor
+ 316:             5            200  java.util.EnumMap
+ 317:             5            200  java.util.stream.SpinedBuffer
+ 318:             5            200  java.util.stream.StreamOpFlag
+ 319:             2            192  [Ljava.util.regex.UnicodeProp;
+ 320:            12            192  com.sun.proxy.$Proxy4
+ 321:             6            192  java.io.CharArrayWriter
+ 322:             6            192  java.lang.StringCoding$StringDecoder
+ 323:             6            192  java.lang.invoke.LambdaForm$BasicType
+ 324:             8            192  java.lang.invoke.MethodHandleImpl$Intrinsic
+ 325:             8            192  java.math.RoundingMode
+ 326:             8            192  java.net.NetPermission
+ 327:            12            192  java.net.URLClassLoader$3$1
+ 328:             8            192  java.util.Collections$1
+ 329:             4            192  java.util.TreeMap
+ 330:             8            192  java.util.regex.Pattern$Ques
+ 331:             8            192  java.util.stream.Collectors$$Lambda$138/143695640
+ 332:             8            192  org.junit.platform.engine.UniqueId$Segment
+ 333:             4            192  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution
+ 334:             8            192  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution$$Lambda$49/1227074340
+ 335:             8            192  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution$$Lambda$95/24606376
+ 336:             8            192  org.junit.platform.engine.support.discovery.SelectorResolver$Match
+ 337:             8            192  sun.misc.ProxyGenerator$ConstantPool
+ 338:             2            192  sun.net.www.protocol.jar.URLJarFile$URLJarFileEntry
+ 339:             8            192  sun.reflect.NativeMethodAccessorImpl
+ 340:             8            192  sun.reflect.annotation.AnnotationType$1
+ 341:            11            176  java.util.LinkedHashMap$LinkedEntrySet
+ 342:             2            176  sun.net.www.protocol.jar.JarURLConnection
+ 343:             5            168  [Ljava.util.Formatter$FormatString;
+ 344:             1            168  [[Ljava.math.BigInteger;
+ 345:             7            168  java.util.regex.Pattern$Ctype
+ 346:             7            168  java.util.stream.ForEachOps$ForEachOp$OfRef
+ 347:             7            168  org.junit.platform.launcher.core.TestExecutionListenerRegistry$$Lambda$165/1571967156
+ 348:             4            160  java.io.BufferedInputStream
+ 349:             5            160  java.lang.IncompatibleClassChangeError
+ 350:             4            160  java.lang.invoke.BoundMethodHandle$Species_LL
+ 351:             4            160  java.security.PrivilegedActionException
+ 352:             5            160  java.util.AbstractList$ListItr
+ 353:             5            160  java.util.Collections$UnmodifiableMap
+ 354:             5            160  java.util.Formatter
+ 355:             4            160  java.util.HashMap$KeyIterator
+ 356:             5            160  java.util.LinkedList
+ 357:             5            160  java.util.RandomAccessSubList
+ 358:             4            160  java.util.ServiceLoader$LazyIterator
+ 359:             4            160  org.junit.jupiter.engine.execution.JupiterEngineExecutionContext$State
+ 360:             2            160  sun.net.www.protocol.jar.URLJarFile
+ 361:             4            160  sun.util.locale.LanguageTag
+ 362:             5            160  sun.util.locale.provider.LocaleProviderAdapter$Type
+ 363:             4            144  [Ljava.lang.invoke.MethodType;
+ 364:             2            144  [Ljava.math.BigDecimal;
+ 365:             6            144  java.lang.Class$4
+ 366:             9            144  java.util.LinkedHashMap$LinkedValues
+ 367:             3            144  java.util.Properties$LineReader
+ 368:             3            144  org.junit.platform.engine.support.hierarchical.NodeTestTask
+ 369:             6            144  sun.misc.PerfCounter
+ 370:             3            144  sun.misc.URLClassPath
+ 371:             6            144  sun.security.util.DisabledAlgorithmConstraints$Constraint$Operator
+ 372:             6            144  sun.usagetracker.UsageTrackerClient$1
+ 373:             2            128  java.io.ExpiringCache$1
+ 374:             4            128  java.lang.NoSuchMethodException
+ 375:             4            128  java.util.RegularEnumSet
+ 376:             4            128  java.util.ServiceLoader
+ 377:             4            128  java.util.Stack
+ 378:             8            128  java.util.regex.Pattern$BranchConn
+ 379:             2            128  java.util.stream.ReferencePipeline$7
+ 380:             2            128  org.junit.jupiter.engine.descriptor.ClassTestDescriptor
+ 381:             8            128  org.junit.platform.commons.util.AnnotationUtils$$Lambda$83/660879561
+ 382:             2            128  org.junit.platform.commons.util.LruCache
+ 383:             8            128  org.junit.platform.engine.UniqueIdFormat$$Lambda$137/2052256418
+ 384:             8            128  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolver$$Lambda$41/445288316
+ 385:             8            128  org.junit.platform.launcher.core.DefaultDiscoveryRequest$$Lambda$34/1384722895
+ 386:             8            128  org.junit.platform.launcher.core.DefaultDiscoveryRequest$$Lambda$35/245475541
+ 387:             2            128  sun.nio.cs.ext.DoubleByte$Encoder
+ 388:             8            128  sun.reflect.DelegatingMethodAccessorImpl
+ 389:             4            128  sun.reflect.MethodAccessorGenerator$1
+ 390:             4            120  [Ljava.security.ProtectionDomain;
+ 391:             1            120  [[Ljava.lang.String;
+ 392:             3            120  java.lang.invoke.MethodHandleImpl$AsVarargsCollector
+ 393:             5            120  java.util.Collections$SingletonList
+ 394:             5            120  java.util.SubList$1
+ 395:             5            120  java.util.regex.Pattern$SingleU
+ 396:             5            120  java.util.stream.StreamOpFlag$Type
+ 397:             5            120  org.apiguardian.api.API$Status
+ 398:             5            120  org.junit.jupiter.engine.support.OpenTest4JAndJUnit4AwareThrowableCollector
+ 399:             5            120  org.junit.platform.engine.support.discovery.SelectorResolver$Resolution
+ 400:             7            112  com.intellij.rt.debugger.agent.CaptureAgent$ParamKeyProvider
+ 401:             7            112  java.io.FileInputStream$1
+ 402:             7            112  java.lang.Class$3
+ 403:             2            112  org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor
+ 404:             7            112  org.junit.platform.launcher.TestPlan$$Lambda$149/2027775614
+ 405:             3             96  [F
+ 406:             2             96  [Ljava.lang.invoke.MethodHandleImpl$Intrinsic;
+ 407:             3             96  [Lorg.junit.jupiter.engine.discovery.MethodSelectorResolver$MethodType;
+ 408:             1             96  [[J
+ 409:             3             96  java.io.FileOutputStream
+ 410:             6             96  java.lang.ClassLoader$2
+ 411:             3             96  java.lang.StringCoding$StringEncoder
+ 412:             2             96  java.lang.ThreadGroup
+ 413:             3             96  java.lang.ThreadLocal$ThreadLocalMap$Entry
+ 414:             4             96  java.math.MathContext
+ 415:             4             96  java.util.Collections$2
+ 416:             4             96  java.util.ServiceLoader$1
+ 417:             4             96  java.util.concurrent.ConcurrentHashMap$KeySetView
+ 418:             4             96  java.util.concurrent.atomic.AtomicLong
+ 419:             4             96  java.util.function.Predicate$$Lambda$201/1105423942
+ 420:             4             96  java.util.function.Predicate$$Lambda$28/1260134048
+ 421:             4             96  java.util.regex.Pattern$5
+ 422:             4             96  java.util.stream.StreamShape
+ 423:             4             96  org.junit.jupiter.engine.execution.JupiterEngineExecutionContext
+ 424:             4             96  org.junit.platform.engine.discovery.ClassSelector
+ 425:             4             96  org.junit.platform.engine.support.discovery.ClassContainerSelectorResolver
+ 426:             4             96  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution$DefaultContext
+ 427:             4             96  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolver$DefaultInitializationContext
+ 428:             4             96  org.junit.platform.launcher.core.EngineDiscoveryOrchestrator$$Lambda$21/230835489
+ 429:             1             96  sun.misc.Launcher$AppClassLoader
+ 430:             2             96  sun.nio.cs.StreamEncoder
+ 431:             4             96  sun.reflect.Label$PatchInfo
+ 432:             3             96  sun.reflect.UnsafeStaticObjectFieldAccessorImpl
+ 433:             2             96  sun.util.locale.provider.LocaleResources$ResourceReference
+ 434:             1             88  java.util.jar.JarVerifier
+ 435:             1             88  sun.misc.Launcher$ExtClassLoader
+ 436:             1             80  [Ljava.lang.ThreadLocal$ThreadLocalMap$Entry;
+ 437:             2             80  [Lorg.apiguardian.api.API$Status;
+ 438:             2             80  [Lorg.junit.runners.model.RunnerBuilder;
+ 439:             2             80  [Lsun.security.util.DisabledAlgorithmConstraints$Constraint$Operator;
+ 440:             2             80  [Lsun.util.locale.provider.LocaleProviderAdapter$Type;
+ 441:             2             80  java.io.BufferedWriter
+ 442:             2             80  java.io.ExpiringCache
+ 443:             2             80  java.lang.ClassLoader$NativeLibrary
+ 444:             5             80  java.lang.ThreadLocal
+ 445:             1             80  java.net.URI
+ 446:             2             80  java.util.HashMap$KeySpliterator
+ 447:             2             80  java.util.Locale$Category
+ 448:             5             80  java.util.concurrent.atomic.AtomicBoolean
+ 449:             5             80  java.util.regex.Pattern$Dot
+ 450:             5             80  java.util.stream.StreamOpFlag$MaskBuilder
+ 451:             5             80  java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$233/440737101
+ 452:             5             80  java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$234/369049246
+ 453:             2             80  org.junit.jupiter.engine.descriptor.JupiterEngineDescriptor
+ 454:             5             80  org.junit.platform.commons.util.Preconditions$$Lambda$61/233996206
+ 455:             2             80  org.junit.platform.launcher.core.InternalTestPlan
+ 456:             2             80  org.junit.vintage.engine.descriptor.VintageEngineDescriptor
+ 457:             2             80  sun.security.util.DisabledAlgorithmConstraints$KeySizeConstraint
+ 458:             1             72  [Ljava.lang.invoke.LambdaFormEditor$Transform$Kind;
+ 459:             3             72  java.io.FileReader
+ 460:             3             72  java.io.InputStreamReader
+ 461:             3             72  java.lang.annotation.RetentionPolicy
+ 462:             3             72  java.security.SecurityPermission
+ 463:             1             72  java.util.ResourceBundle$RBClassLoader
+ 464:             3             72  java.util.concurrent.atomic.AtomicMarkableReference$Pair
+ 465:             1             72  java.util.logging.LogManager$RootLogger
+ 466:             3             72  java.util.regex.Pattern$Dollar
+ 467:             3             72  java.util.stream.Collector$Characteristics
+ 468:             3             72  java.util.stream.MatchOps$MatchKind
+ 469:             3             72  org.junit.jupiter.engine.execution.ExtensionValuesStore
+ 470:             3             72  org.junit.jupiter.engine.execution.JupiterEngineExecutionContext$Builder
+ 471:             3             72  org.junit.jupiter.engine.extension.MutableExtensionRegistry
+ 472:             3             72  org.junit.jupiter.engine.extension.TimeoutConfiguration$$Lambda$265/573673894
+ 473:             3             72  org.junit.platform.engine.SelectorResolutionResult$Status
+ 474:             3             72  org.junit.platform.engine.TestDescriptor$Type
+ 475:             3             72  org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor
+ 476:             3             72  org.junit.platform.engine.support.hierarchical.NodeTreeWalker$$Lambda$172/1224347463
+ 477:             1             72  sun.util.locale.provider.JRELocaleProviderAdapter
+ 478:             3             72  sun.util.resources.ParallelListResourceBundle$KeySet
+ 479:             2             64  [Ljava.lang.Thread;
+ 480:             2             64  [Ljava.lang.annotation.RetentionPolicy;
+ 481:             2             64  [Ljava.lang.invoke.LambdaFormEditor$Transform;
+ 482:             4             64  [Ljava.lang.reflect.Parameter;
+ 483:             2             64  [Ljava.util.stream.Collector$Characteristics;
+ 484:             4             64  com.intellij.junit5.JUnit5TestExecutionListener$$Lambda$153/111156771
+ 485:             2             64  java.io.FileNotFoundException
+ 486:             2             64  java.io.PrintStream
+ 487:             2             64  java.lang.ClassValue$Entry
+ 488:             2             64  java.lang.NoSuchFieldError
+ 489:             2             64  java.lang.VirtualMachineError
+ 490:             4             64  java.lang.invoke.BoundMethodHandle$SpeciesData$1
+ 491:             2             64  java.lang.ref.ReferenceQueue$Null
+ 492:             2             64  java.util.ArrayList$ListItr
+ 493:             2             64  java.util.Collections$SynchronizedMap
+ 494:             4             64  java.util.Collections$UnmodifiableCollection
+ 495:             4             64  java.util.HashMap$EntrySet
+ 496:             4             64  java.util.regex.Pattern$Begin
+ 497:             4             64  org.junit.jupiter.engine.config.CachingJupiterConfiguration$$Lambda$78/255944888
+ 498:             4             64  org.junit.jupiter.engine.descriptor.DisplayNameUtils$$Lambda$77/708890004
+ 499:             4             64  org.junit.jupiter.engine.descriptor.JupiterTestDescriptor$$Lambda$85/2007331442
+ 500:             4             64  org.junit.jupiter.engine.descriptor.LifecycleMethodUtils$$Lambda$218/1642030774
+ 501:             2             64  org.junit.jupiter.engine.discovery.MethodSelectorResolver$$Lambda$64/388043093
+ 502:             2             64  org.junit.jupiter.engine.discovery.MethodSelectorResolver$MethodType$$Lambda$72/615634843
+ 503:             4             64  org.junit.platform.commons.util.AnnotationUtils$$Lambda$200/1984990929
+ 504:             4             64  org.junit.platform.commons.util.AnnotationUtils$$Lambda$214/1754894440
+ 505:             4             64  org.junit.platform.commons.util.ReflectionUtils$$Lambda$205/367746789
+ 506:             4             64  org.junit.platform.commons.util.ReflectionUtils$$Lambda$206/558216562
+ 507:             4             64  org.junit.platform.commons.util.ReflectionUtils$$Lambda$216/787738361
+ 508:             4             64  org.junit.platform.commons.util.ReflectionUtils$$Lambda$217/607932305
+ 509:             4             64  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution$$Lambda$112/1007309018
+ 510:             4             64  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution$$Lambda$96/756185697
+ 511:             4             64  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution$DefaultContext$$Lambda$98/297927961
+ 512:             2             64  org.junit.platform.launcher.TestPlan
+ 513:             4             64  org.junit.platform.launcher.TestPlan$$Lambda$148/494317290
+ 514:             4             64  org.junit.platform.launcher.core.DefaultDiscoveryRequest$$Lambda$47/1543237999
+ 515:             4             64  org.junit.platform.launcher.core.DefaultDiscoveryRequest$$Lambda$48/632249781
+ 516:             4             64  org.junit.platform.launcher.core.EngineDiscoveryOrchestrator$$Lambda$131/1790421142
+ 517:             4             64  org.junit.platform.launcher.core.EngineDiscoveryOrchestrator$$Lambda$18/1447689627
+ 518:             4             64  org.junit.platform.launcher.core.EngineDiscoveryResultValidator$$Lambda$118/1477657879
+ 519:             4             64  org.junit.platform.launcher.core.EngineDiscoveryResultValidator$$Lambda$119/1146147158
+ 520:             4             64  sun.reflect.BootstrapConstructorAccessorImpl
+ 521:             4             64  sun.reflect.ClassDefiner$1
+ 522:             4             64  sun.reflect.Label
+ 523:             4             64  sun.reflect.ReflectionFactory$1
+ 524:             1             56  [Ljava.lang.Runnable;
+ 525:             1             56  [Lsun.util.logging.PlatformLogger$Level;
+ 526:             1             56  [[I
+ 527:             1             56  java.net.SocketPermission
+ 528:             1             56  java.util.logging.LogManager
+ 529:             1             48  [Ljava.math.RoundingMode;
+ 530:             2             48  [Ljava.security.Permission;
+ 531:             2             48  [Ljava.util.Locale$Category;
+ 532:             1             48  [Ljava.util.concurrent.TimeUnit;
+ 533:             2             48  [Lorg.junit.platform.engine.DiscoverySelector;
+ 534:             1             48  com.intellij.junit5.JUnit5TestExecutionListener
+ 535:             3             48  com.sun.proxy.$Proxy7
+ 536:             2             48  java.io.BufferedOutputStream
+ 537:             2             48  java.io.File$PathStatus
+ 538:             2             48  java.io.OutputStreamWriter
+ 539:             3             48  java.lang.invoke.BoundMethodHandle$Factory$1
+ 540:             1             48  java.lang.invoke.BoundMethodHandle$Species_L4
+ 541:             2             48  java.lang.invoke.TypeConvertingMethodAdapter
+ 542:             2             48  java.lang.reflect.ReflectPermission
+ 543:             2             48  java.nio.charset.CoderResult
+ 544:             3             48  java.nio.charset.CodingErrorAction
+ 545:             2             48  java.util.BitSet
+ 546:             3             48  java.util.HashMap$KeySet
+ 547:             3             48  java.util.concurrent.atomic.AtomicInteger
+ 548:             3             48  java.util.concurrent.atomic.AtomicMarkableReference
+ 549:             2             48  java.util.logging.Logger$LoggerBundle
+ 550:             2             48  java.util.regex.Pattern$1
+ 551:             1             48  java.util.regex.Pattern$GroupCurly
+ 552:             2             48  java.util.regex.Pattern$SliceI
+ 553:             2             48  java.util.stream.ReferencePipeline$7$1
+ 554:             3             48  org.junit.jupiter.api.DisplayNameGenerator$Standard
+ 555:             2             48  org.junit.jupiter.api.TestInstance$Lifecycle
+ 556:             2             48  org.junit.jupiter.api.extension.ConditionEvaluationResult
+ 557:             3             48  org.junit.jupiter.api.extension.ExtensionContext$Namespace
+ 558:             2             48  org.junit.jupiter.engine.config.CachingJupiterConfiguration
+ 559:             2             48  org.junit.jupiter.engine.config.DisplayNameGeneratorParameterConverter$$Lambda$82/1890187342
+ 560:             2             48  org.junit.jupiter.engine.config.EnumConfigurationParameterConverter
+ 561:             2             48  org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$221/1780034814
+ 562:             2             48  org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$236/1841396611
+ 563:             1             48  org.junit.jupiter.engine.descriptor.ClassExtensionContext
+ 564:             2             48  org.junit.jupiter.engine.descriptor.DisplayNameUtils$$Lambda$104/1782148126
+ 565:             2             48  org.junit.jupiter.engine.descriptor.DisplayNameUtils$$Lambda$74/1615039080
+ 566:             2             48  org.junit.jupiter.engine.descriptor.ExtensionUtils$$Lambda$208/1928931046
+ 567:             3             48  org.junit.jupiter.engine.descriptor.MethodBasedTestDescriptor$$Lambda$144/2143431083
+ 568:             1             48  org.junit.jupiter.engine.descriptor.MethodExtensionContext
+ 569:             2             48  org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor$$Lambda$253/1836463382
+ 570:             2             48  org.junit.jupiter.engine.discovery.ClassSelectorResolver
+ 571:             2             48  org.junit.jupiter.engine.discovery.ClassSelectorResolver$$Lambda$73/900008524
+ 572:             2             48  org.junit.jupiter.engine.discovery.ClassSelectorResolver$$Lambda$94/688766789
+ 573:             2             48  org.junit.jupiter.engine.discovery.MethodOrderingVisitor$$Lambda$116/1704064279
+ 574:             2             48  org.junit.jupiter.engine.discovery.MethodSelectorResolver$MethodType$$Lambda$71/1381128261
+ 575:             3             48  org.junit.jupiter.engine.discovery.predicates.IsNestedTestClass
+ 576:             3             48  org.junit.jupiter.engine.discovery.predicates.IsTestClassWithTests
+ 577:             2             48  org.junit.jupiter.engine.discovery.predicates.IsTestFactoryMethod
+ 578:             2             48  org.junit.jupiter.engine.discovery.predicates.IsTestMethod
+ 579:             2             48  org.junit.jupiter.engine.discovery.predicates.IsTestTemplateMethod
+ 580:             2             48  org.junit.jupiter.engine.execution.ConditionEvaluator$$Lambda$231/350068407
+ 581:             2             48  org.junit.jupiter.engine.execution.ExecutableInvoker$$Lambda$248/112797691
+ 582:             2             48  org.junit.jupiter.engine.execution.ExtensionValuesStore$CompositeKey
+ 583:             2             48  org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation
+ 584:             2             48  org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation
+ 585:             2             48  org.junit.jupiter.engine.execution.NamespaceAwareStore
+ 586:             2             48  org.junit.jupiter.engine.extension.TempDirectory$$Lambda$238/1847637306
+ 587:             3             48  org.junit.jupiter.engine.extension.TimeoutConfiguration$$Lambda$264/1321530272
+ 588:             2             48  org.junit.platform.commons.util.ClassFilter
+ 589:             3             48  org.junit.platform.commons.util.Preconditions$$Lambda$15/1121647253
+ 590:             2             48  org.junit.platform.commons.util.ReflectionUtils$$Lambda$53/142555199
+ 591:             2             48  org.junit.platform.commons.util.ReflectionUtils$HierarchyTraversalMode
+ 592:             2             48  org.junit.platform.engine.FilterResult
+ 593:             2             48  org.junit.platform.engine.SelectorResolutionResult
+ 594:             2             48  org.junit.platform.engine.support.descriptor.ClassSource
+ 595:             2             48  org.junit.platform.engine.support.descriptor.MethodSource
+ 596:             2             48  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution$DefaultContext$$Lambda$100/912011468
+ 597:             2             48  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolver
+ 598:             2             48  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolver$Builder
+ 599:             2             48  org.junit.platform.engine.support.discovery.SelectorResolver$Match$Type
+ 600:             3             48  org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$176/2028017635
+ 601:             3             48  org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$183/431687661
+ 602:             3             48  org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$188/1691185247
+ 603:             3             48  org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$189/1702940637
+ 604:             3             48  org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$190/2114684409
+ 605:             3             48  org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$191/1664439369
+ 606:             2             48  org.junit.platform.launcher.EngineDiscoveryResult$Status
+ 607:             2             48  org.junit.platform.launcher.core.EngineDiscoveryOrchestrator$$Lambda$130/360062456
+ 608:             2             48  org.junit.platform.launcher.core.LauncherConfigurationParameters
+ 609:             2             48  org.junit.platform.launcher.core.LauncherDiscoveryResult
+ 610:             2             48  org.junit.platform.launcher.core.TestExecutionListenerRegistry
+ 611:             3             48  org.junit.platform.launcher.core.TestExecutionListenerRegistry$CompositeTestExecutionListener$$Lambda$184/1738674023
+ 612:             3             48  org.junit.platform.launcher.core.TestExecutionListenerRegistry$CompositeTestExecutionListener$$Lambda$185/1472682156
+ 613:             3             48  org.junit.platform.launcher.core.TestExecutionListenerRegistry$CompositeTestExecutionListener$$Lambda$186/178049969
+ 614:             3             48  org.junit.platform.launcher.core.TestExecutionListenerRegistry$CompositeTestExecutionListener$$Lambda$187/333683827
+ 615:             2             48  org.junit.vintage.engine.discovery.MethodSelectorResolver$$Lambda$124/1054932644
+ 616:             2             48  org.junit.vintage.engine.discovery.MethodSelectorResolver$$Lambda$125/254749889
+ 617:             2             48  org.junit.vintage.engine.discovery.RunnerTestDescriptorPostProcessor
+ 618:             2             48  sun.instrument.InstrumentationImpl$1
+ 619:             2             48  sun.misc.NativeSignalHandler
+ 620:             2             48  sun.misc.Signal
+ 621:             2             48  sun.misc.URLClassPath$FileLoader
+ 622:             3             48  sun.net.www.protocol.jar.Handler
+ 623:             2             48  sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream
+ 624:             3             48  sun.reflect.ReflectionFactory$GetReflectionFactoryAction
+ 625:             3             48  sun.security.action.GetBooleanAction
+ 626:             2             48  sun.security.util.DisabledAlgorithmConstraints$DisabledConstraint
+ 627:             1             48  sun.security.util.ManifestEntryVerifier
+ 628:             1             48  sun.text.resources.FormatData
+ 629:             1             48  sun.text.resources.zh.FormatData_zh
+ 630:             1             48  sun.text.resources.zh.FormatData_zh_CN
+ 631:             1             48  sun.util.resources.CurrencyNames
+ 632:             2             48  sun.util.resources.LocaleData$1
+ 633:             1             48  sun.util.resources.zh.CurrencyNames_zh_CN
+ 634:             1             40  [Lorg.junit.jupiter.api.extension.Extension;
+ 635:             2             40  [Lorg.junit.platform.launcher.TestExecutionListener;
+ 636:             2             40  [Lsun.instrument.TransformerManager$TransformerInfo;
+ 637:             1             40  [[Ljava.lang.invoke.LambdaForm$Name;
+ 638:             1             40  java.lang.invoke.BoundMethodHandle$Species_L3
+ 639:             1             40  java.util.ResourceBundle$1
+ 640:             1             40  java.util.regex.Pattern$Loop
+ 641:             1             40  org.junit.jupiter.engine.descriptor.JupiterEngineExtensionContext
+ 642:             1             40  org.junit.platform.launcher.core.DefaultDiscoveryRequest
+ 643:             1             40  org.junit.platform.launcher.core.LauncherDiscoveryRequestBuilder
+ 644:             1             40  org.junit.platform.launcher.core.OutcomeDelayingEngineExecutionListener
+ 645:             1             40  sun.nio.cs.StandardCharsets$Aliases
+ 646:             1             40  sun.nio.cs.StandardCharsets$Cache
+ 647:             1             40  sun.nio.cs.StandardCharsets$Classes
+ 648:             1             40  sun.nio.cs.ext.ExtendedCharsets
+ 649:             1             40  sun.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl
+ 650:             2             32  [Ljava.lang.Enum;
+ 651:             1             32  [Ljava.lang.OutOfMemoryError;
+ 652:             2             32  [Ljava.lang.StackTraceElement;
+ 653:             1             32  [Ljava.lang.ThreadGroup;
+ 654:             1             32  [Ljava.util.stream.MatchOps$MatchKind;
+ 655:             1             32  [Ljava.util.stream.StreamShape;
+ 656:             1             32  [Lorg.junit.platform.engine.SelectorResolutionResult$Status;
+ 657:             1             32  [Lorg.junit.platform.engine.TestDescriptor$Type;
+ 658:             1             32  com.intellij.junit5.JUnit5IdeaTestRunner
+ 659:             2             32  com.intellij.junit5.JUnit5TestExecutionListener$$Lambda$156/2039810346
+ 660:             2             32  com.sun.proxy.$Proxy5
+ 661:             2             32  com.sun.proxy.$Proxy6
+ 662:             1             32  java.io.ByteArrayInputStream
+ 663:             1             32  java.io.DataInputStream
+ 664:             1             32  java.io.WinNTFileSystem
+ 665:             1             32  java.lang.ArithmeticException
+ 666:             2             32  java.lang.Boolean
+ 667:             2             32  java.lang.ClassLoader$3
+ 668:             1             32  java.lang.InternalError
+ 669:             1             32  java.lang.NullPointerException
+ 670:             2             32  java.lang.Shutdown$Lock
+ 671:             1             32  java.lang.reflect.WeakCache
+ 672:             1             32  java.net.URI$Parser
+ 673:             2             32  java.nio.ByteOrder
+ 674:             2             32  java.util.Collections$SingletonSet
+ 675:             2             32  java.util.Comparator$$Lambda$169/1457410641
+ 676:             1             32  java.util.PropertyPermission
+ 677:             1             32  java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl
+ 678:             1             32  java.util.logging.LogManager$SystemLoggerContext
+ 679:             1             32  java.util.regex.Pattern$2
+ 680:             2             32  java.util.regex.Pattern$All
+ 681:             2             32  org.junit.internal.builders.JUnit3Builder
+ 682:             2             32  org.junit.internal.builders.SuiteMethodBuilder
+ 683:             2             32  org.junit.jupiter.engine.config.CachingJupiterConfiguration$$Lambda$225/1636182655
+ 684:             2             32  org.junit.jupiter.engine.config.CachingJupiterConfiguration$$Lambda$92/2040352617
+ 685:             2             32  org.junit.jupiter.engine.config.DefaultJupiterConfiguration
+ 686:             1             32  org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$243/1156304131
+ 687:             2             32  org.junit.jupiter.engine.descriptor.LifecycleMethodUtils$$Lambda$219/1357563986
+ 688:             2             32  org.junit.jupiter.engine.descriptor.LifecycleMethodUtils$$Lambda$223/1125736023
+ 689:             2             32  org.junit.jupiter.engine.descriptor.TestInstanceLifecycleUtils$$Lambda$91/1169146729
+ 690:             2             32  org.junit.jupiter.engine.discovery.ClassSelectorResolver$$Lambda$93/1237598030
+ 691:             2             32  org.junit.jupiter.engine.discovery.DiscoverySelectorResolver
+ 692:             2             32  org.junit.jupiter.engine.discovery.MethodOrderingVisitor
+ 693:             2             32  org.junit.jupiter.engine.discovery.MethodSelectorResolver
+ 694:             2             32  org.junit.jupiter.engine.discovery.MethodSelectorResolver$$Lambda$109/477289012
+ 695:             2             32  org.junit.jupiter.engine.discovery.MethodSelectorResolver$$Lambda$56/1780132728
+ 696:             2             32  org.junit.jupiter.engine.discovery.MethodSelectorResolver$$Lambda$67/266437232
+ 697:             1             32  org.junit.jupiter.engine.discovery.MethodSelectorResolver$MethodType$1
+ 698:             1             32  org.junit.jupiter.engine.discovery.MethodSelectorResolver$MethodType$2
+ 699:             1             32  org.junit.jupiter.engine.discovery.MethodSelectorResolver$MethodType$3
+ 700:             2             32  org.junit.jupiter.engine.execution.ExecutableInvoker
+ 701:             2             32  org.junit.jupiter.engine.extension.MutableExtensionRegistry$$Lambda$198/388357135
+ 702:             2             32  org.junit.jupiter.engine.extension.TimeoutExtension$$Lambda$240/1202683709
+ 703:             2             32  org.junit.platform.commons.function.Try$$Lambda$54/1629911510
+ 704:             2             32  org.junit.platform.commons.function.Try$Success
+ 705:             2             32  org.junit.platform.commons.util.ClassNamePatternFilterUtils$$Lambda$235/1608297024
+ 706:             2             32  org.junit.platform.commons.util.CollectionUtils$$Lambda$99/868964689
+ 707:             1             32  org.junit.platform.engine.UniqueIdFormat
+ 708:             1             32  org.junit.platform.engine.discovery.MethodSelector
+ 709:             2             32  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution$$Lambda$111/513700442
+ 710:             2             32  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolver$Builder$$Lambda$29/238157928
+ 711:             1             32  org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor
+ 712:             2             32  org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$193/203849460
+ 713:             1             32  org.junit.platform.engine.support.hierarchical.NodeTestTaskContext
+ 714:             2             32  org.junit.platform.launcher.TestPlan$$Lambda$135/1003752023
+ 715:             2             32  org.junit.platform.launcher.TestPlan$$Lambda$136/266272063
+ 716:             2             32  org.junit.vintage.engine.descriptor.TestSourceProvider
+ 717:             2             32  org.junit.vintage.engine.discovery.ClassSelectorResolver
+ 718:             1             32  org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder
+ 719:             2             32  org.junit.vintage.engine.discovery.MethodSelectorResolver$$Lambda$126/973576304
+ 720:             2             32  org.junit.vintage.engine.discovery.VintageDiscoverer
+ 721:             2             32  org.junit.vintage.engine.discovery.VintageDiscoverer$$Lambda$127/937773018
+ 722:             2             32  org.junit.vintage.engine.discovery.VintageDiscoverer$$Lambda$128/1572098393
+ 723:             2             32  org.junit.vintage.engine.discovery.VintageDiscoverer$$Lambda$129/2084663827
+ 724:             2             32  org.junit.vintage.engine.support.UniqueIdReader
+ 725:             2             32  org.junit.vintage.engine.support.UniqueIdStringifier
+ 726:             1             32  sun.instrument.InstrumentationImpl
+ 727:             2             32  sun.misc.PostVMInitHook$1
+ 728:             1             32  sun.misc.URLClassPath$FileLoader$1
+ 729:             1             32  sun.nio.cs.StandardCharsets
+ 730:             2             32  sun.usagetracker.UsageTrackerClient$2
+ 731:             2             32  sun.usagetracker.UsageTrackerClient$3
+ 732:             1             32  sun.util.locale.provider.LocaleResources
+ 733:             1             32  sun.util.locale.provider.LocaleServiceProviderPool
+ 734:             1             24  [Ljava.io.File$PathStatus;
+ 735:             1             24  [Ljava.lang.ClassValue$Entry;
+ 736:             1             24  [Lorg.junit.jupiter.api.TestInstance$Lifecycle;
+ 737:             1             24  [Lorg.junit.platform.commons.util.ReflectionUtils$HierarchyTraversalMode;
+ 738:             1             24  [Lorg.junit.platform.engine.support.discovery.SelectorResolver$Match$Type;
+ 739:             1             24  [Lorg.junit.platform.launcher.EngineDiscoveryResult$Status;
+ 740:             1             24  [Lsun.launcher.LauncherHelper;
+ 741:             1             24  com.intellij.rt.debugger.agent.CaptureAgent$FieldKeyProvider
+ 742:             1             24  java.lang.ClassValue$Version
+ 743:             1             24  java.lang.Double
+ 744:             1             24  java.lang.ThreadLocal$ThreadLocalMap
+ 745:             1             24  java.lang.invoke.MethodHandleImpl$4
+ 746:             1             24  java.lang.invoke.MethodType$ConcurrentWeakInternSet
+ 747:             1             24  java.security.AllPermissionCollection
+ 748:             1             24  java.util.Collections$EmptyMap
+ 749:             1             24  java.util.Collections$SetFromMap
+ 750:             1             24  java.util.Comparator$$Lambda$171/1637061418
+ 751:             1             24  java.util.Currency
+ 752:             1             24  java.util.Locale$Cache
+ 753:             1             24  java.util.ResourceBundle$Control$CandidateListCache
+ 754:             1             24  java.util.concurrent.TimeUnit$1
+ 755:             1             24  java.util.concurrent.TimeUnit$2
+ 756:             1             24  java.util.concurrent.TimeUnit$3
+ 757:             1             24  java.util.concurrent.TimeUnit$4
+ 758:             1             24  java.util.concurrent.TimeUnit$5
+ 759:             1             24  java.util.concurrent.TimeUnit$6
+ 760:             1             24  java.util.concurrent.TimeUnit$7
+ 761:             1             24  java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl$1
+ 762:             1             24  java.util.logging.LogManager$2
+ 763:             1             24  java.util.logging.LogManager$LoggerContext
+ 764:             1             24  java.util.logging.LoggingPermission
+ 765:             1             24  java.util.regex.Pattern$7
+ 766:             1             24  java.util.regex.Pattern$CharProperty$1
+ 767:             1             24  java.util.regex.Pattern$Prolog
+ 768:             1             24  java.util.regex.Pattern$Utype
+ 769:             1             24  java.util.regex.UnicodeProp$1
+ 770:             1             24  java.util.regex.UnicodeProp$10
+ 771:             1             24  java.util.regex.UnicodeProp$11
+ 772:             1             24  java.util.regex.UnicodeProp$12
+ 773:             1             24  java.util.regex.UnicodeProp$13
+ 774:             1             24  java.util.regex.UnicodeProp$14
+ 775:             1             24  java.util.regex.UnicodeProp$15
+ 776:             1             24  java.util.regex.UnicodeProp$16
+ 777:             1             24  java.util.regex.UnicodeProp$17
+ 778:             1             24  java.util.regex.UnicodeProp$18
+ 779:             1             24  java.util.regex.UnicodeProp$19
+ 780:             1             24  java.util.regex.UnicodeProp$2
+ 781:             1             24  java.util.regex.UnicodeProp$3
+ 782:             1             24  java.util.regex.UnicodeProp$4
+ 783:             1             24  java.util.regex.UnicodeProp$5
+ 784:             1             24  java.util.regex.UnicodeProp$6
+ 785:             1             24  java.util.regex.UnicodeProp$7
+ 786:             1             24  java.util.regex.UnicodeProp$8
+ 787:             1             24  java.util.regex.UnicodeProp$9
+ 788:             1             24  org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$224/944427387
+ 789:             1             24  org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$250/1484171695
+ 790:             1             24  org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor$$Lambda$242/842741472
+ 791:             1             24  org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor$$Lambda$256/1364913072
+ 792:             1             24  org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor$$Lambda$258/572868060
+ 793:             1             24  org.junit.jupiter.engine.execution.ConstructorInvocation
+ 794:             1             24  org.junit.jupiter.engine.execution.ExtensionValuesStore$$Lambda$262/1130894323
+ 795:             1             24  org.junit.jupiter.engine.execution.ExtensionValuesStore$MemoizingSupplier
+ 796:             1             24  org.junit.jupiter.engine.execution.MethodInvocation
+ 797:             1             24  org.junit.jupiter.engine.extension.TempDirectory$$Lambda$254/1388278453
+ 798:             1             24  org.junit.jupiter.engine.extension.TimeoutConfiguration
+ 799:             1             24  org.junit.platform.commons.util.ClasspathScanner
+ 800:             1             24  org.junit.platform.commons.util.ReflectionUtils$$Lambda$62/385337537
+ 801:             1             24  org.junit.platform.engine.ExecutionRequest
+ 802:             1             24  org.junit.platform.engine.support.hierarchical.Node$SkipResult
+ 803:             1             24  org.junit.platform.engine.support.hierarchical.NodeExecutionAdvisor
+ 804:             1             24  org.junit.platform.launcher.EngineDiscoveryResult
+ 805:             1             24  org.junit.platform.launcher.core.DefaultLauncher
+ 806:             1             24  org.junit.platform.launcher.core.DefaultLauncherConfig
+ 807:             1             24  org.junit.platform.launcher.core.EngineDiscoveryOrchestrator
+ 808:             1             24  org.junit.platform.launcher.core.EngineExecutionOrchestrator$$Lambda$160/510854293
+ 809:             1             24  org.junit.platform.launcher.core.ExecutionListenerAdapter
+ 810:             1             24  org.junit.platform.launcher.core.LauncherConfig$Builder
+ 811:             1             24  org.junit.platform.launcher.core.ServiceLoaderTestEngineRegistry$$Lambda$1/760563749
+ 812:             1             24  org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder
+ 813:             1             24  sun.instrument.TransformerManager
+ 814:             1             24  sun.instrument.TransformerManager$TransformerInfo
+ 815:             1             24  sun.launcher.LauncherHelper
+ 816:             1             24  sun.misc.JarIndex
+ 817:             1             24  sun.misc.Launcher$AppClassLoader$1
+ 818:             1             24  sun.nio.cs.ISO_8859_1
+ 819:             1             24  sun.nio.cs.ThreadLocalCoders$1
+ 820:             1             24  sun.nio.cs.ThreadLocalCoders$2
+ 821:             1             24  sun.nio.cs.US_ASCII
+ 822:             1             24  sun.nio.cs.UTF_16
+ 823:             1             24  sun.nio.cs.UTF_16BE
+ 824:             1             24  sun.nio.cs.UTF_16LE
+ 825:             1             24  sun.nio.cs.UTF_8
+ 826:             1             24  sun.nio.cs.ext.GBK
+ 827:             1             24  sun.security.util.DisabledAlgorithmConstraints
+ 828:             1             24  sun.usagetracker.UsageTrackerClient$4
+ 829:             1             24  sun.util.locale.BaseLocale$Cache
+ 830:             1             24  sun.util.locale.provider.CurrencyNameProviderImpl
+ 831:             1             24  sun.util.locale.provider.DecimalFormatSymbolsProviderImpl
+ 832:             1             24  sun.util.locale.provider.SPILocaleProviderAdapter$1
+ 833:             1             16  [Ljava.lang.Throwable;
+ 834:             1             16  [Ljava.security.CodeSigner;
+ 835:             1             16  [Ljava.security.cert.Certificate;
+ 836:             1             16  [Ljava.util.logging.Handler;
+ 837:             1             16  com.intellij.junit5.JUnit5TestExecutionListener$$Lambda$146/1384010761
+ 838:             1             16  com.intellij.junit5.JUnit5TestExecutionListener$$Lambda$147/295221641
+ 839:             1             16  com.intellij.junit5.JUnit5TestExecutionListener$$Lambda$150/282821294
+ 840:             1             16  com.intellij.junit5.JUnit5TestExecutionListener$$Lambda$151/1344199921
+ 841:             1             16  com.intellij.junit5.JUnit5TestExecutionListener$$Lambda$152/331418503
+ 842:             1             16  com.intellij.junit5.JUnit5TestExecutionListener$$Lambda$154/1519736165
+ 843:             1             16  com.intellij.junit5.JUnit5TestExecutionListener$$Lambda$155/1653844940
+ 844:             1             16  com.intellij.rt.debugger.agent.CaptureAgent$1
+ 845:             1             16  com.intellij.rt.debugger.agent.CaptureAgent$CaptureTransformer
+ 846:             1             16  com.intellij.rt.execution.junit.MapSerializerUtil$1
+ 847:             1             16  daily.Strings.Strings
+ 848:             1             16  java.io.FileDescriptor$1
+ 849:             1             16  java.io.FileOutputStream$1
+ 850:             1             16  java.lang.ApplicationShutdownHooks$1
+ 851:             1             16  java.lang.CharacterData00
+ 852:             1             16  java.lang.CharacterDataLatin1
+ 853:             1             16  java.lang.ClassValue$Identity
+ 854:             1             16  java.lang.Compiler$1
+ 855:             1             16  java.lang.Float
+ 856:             1             16  java.lang.Runtime
+ 857:             1             16  java.lang.String$CaseInsensitiveComparator
+ 858:             1             16  java.lang.System$2
+ 859:             1             16  java.lang.SystemClassLoaderAction
+ 860:             1             16  java.lang.Terminator$1
+ 861:             1             16  java.lang.invoke.MemberName$Factory
+ 862:             1             16  java.lang.invoke.MethodHandleImpl$1
+ 863:             1             16  java.lang.invoke.MethodHandleImpl$2
+ 864:             1             16  java.lang.invoke.MethodHandleImpl$3
+ 865:             1             16  java.lang.invoke.MethodHandleStatics$1
+ 866:             1             16  java.lang.ref.Reference$1
+ 867:             1             16  java.lang.ref.Reference$Lock
+ 868:             1             16  java.lang.reflect.Proxy$KeyFactory
+ 869:             1             16  java.lang.reflect.Proxy$ProxyClassFactory
+ 870:             1             16  java.lang.reflect.ReflectAccess
+ 871:             1             16  java.math.BigDecimal$1
+ 872:             1             16  java.net.URLClassLoader$7
+ 873:             1             16  java.nio.Bits$1
+ 874:             1             16  java.nio.charset.Charset$ExtendedProviderHolder$1
+ 875:             1             16  java.nio.charset.CoderResult$1
+ 876:             1             16  java.nio.charset.CoderResult$2
+ 877:             1             16  java.security.AccessController$1
+ 878:             1             16  java.security.AllPermission
+ 879:             1             16  java.security.ProtectionDomain$2
+ 880:             1             16  java.security.ProtectionDomain$JavaSecurityAccessImpl
+ 881:             1             16  java.security.Security$1
+ 882:             1             16  java.util.Collections$EmptyIterator
+ 883:             1             16  java.util.Collections$EmptyList
+ 884:             1             16  java.util.Collections$EmptySet
+ 885:             1             16  java.util.Currency$1
+ 886:             1             16  java.util.Currency$CurrencyNameGetter
+ 887:             1             16  java.util.EnumMap$1
+ 888:             1             16  java.util.Hashtable$EntrySet
+ 889:             1             16  java.util.ResourceBundle$Control
+ 890:             1             16  java.util.ResourceBundle$RBClassLoader$1
+ 891:             1             16  java.util.Spliterators$EmptySpliterator$OfDouble
+ 892:             1             16  java.util.Spliterators$EmptySpliterator$OfInt
+ 893:             1             16  java.util.Spliterators$EmptySpliterator$OfLong
+ 894:             1             16  java.util.Spliterators$EmptySpliterator$OfRef
+ 895:             1             16  java.util.WeakHashMap$KeySet
+ 896:             1             16  java.util.jar.JarVerifier$3
+ 897:             1             16  java.util.jar.JavaUtilJarAccessImpl
+ 898:             1             16  java.util.logging.LogManager$1
+ 899:             1             16  java.util.logging.LogManager$3
+ 900:             1             16  java.util.logging.LoggingProxyImpl
+ 901:             1             16  java.util.regex.Pattern$4
+ 902:             1             16  java.util.regex.Pattern$LastNode
+ 903:             1             16  java.util.regex.Pattern$Node
+ 904:             1             16  java.util.stream.Collectors$$Lambda$139/2043318969
+ 905:             1             16  java.util.stream.Collectors$$Lambda$140/341878976
+ 906:             1             16  java.util.stream.Collectors$$Lambda$141/1331923253
+ 907:             1             16  java.util.stream.Collectors$$Lambda$36/809762318
+ 908:             1             16  java.util.stream.Collectors$$Lambda$37/198761306
+ 909:             1             16  java.util.stream.Collectors$$Lambda$38/525571
+ 910:             1             16  java.util.stream.Collectors$$Lambda$39/1263877414
+ 911:             1             16  java.util.stream.Collectors$$Lambda$43/103887628
+ 912:             1             16  java.util.stream.Collectors$$Lambda$44/1123629720
+ 913:             1             16  java.util.stream.Collectors$$Lambda$68/1873859565
+ 914:             1             16  java.util.stream.Collectors$$Lambda$69/1843289228
+ 915:             1             16  java.util.stream.Collectors$$Lambda$70/1361289747
+ 916:             1             16  java.util.stream.FindOps$$Lambda$51/331510866
+ 917:             1             16  java.util.stream.FindOps$$Lambda$52/99451533
+ 918:             1             16  java.util.zip.ZipFile$1
+ 919:             1             16  org.junit.jupiter.api.DisplayNameGenerator$$Lambda$105/112619572
+ 920:             1             16  org.junit.jupiter.api.DisplayNameGenerator$ReplaceUnderscores
+ 921:             1             16  org.junit.jupiter.api.DisplayNameGenerator$Simple
+ 922:             1             16  org.junit.jupiter.engine.JupiterTestEngine
+ 923:             1             16  org.junit.jupiter.engine.JupiterTestEngine$$Lambda$167/867148091
+ 924:             1             16  org.junit.jupiter.engine.config.CachingJupiterConfiguration$$Lambda$166/2065857933
+ 925:             1             16  org.junit.jupiter.engine.config.CachingJupiterConfiguration$$Lambda$179/1629687658
+ 926:             1             16  org.junit.jupiter.engine.config.DefaultJupiterConfiguration$$Lambda$79/1004095028
+ 927:             1             16  org.junit.jupiter.engine.config.DisplayNameGeneratorParameterConverter
+ 928:             1             16  org.junit.jupiter.engine.config.DisplayNameGeneratorParameterConverter$$Lambda$80/1487470647
+ 929:             1             16  org.junit.jupiter.engine.config.DisplayNameGeneratorParameterConverter$$Lambda$81/1948863195
+ 930:             1             16  org.junit.jupiter.engine.descriptor.AbstractExtensionContext$$Lambda$180/694316372
+ 931:             1             16  org.junit.jupiter.engine.descriptor.AbstractExtensionContext$$Lambda$181/1516500233
+ 932:             1             16  org.junit.jupiter.engine.descriptor.AbstractExtensionContext$$Lambda$182/1850180796
+ 933:             1             16  org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$220/514455215
+ 934:             1             16  org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$222/1449263511
+ 935:             1             16  org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$244/1766505436
+ 936:             1             16  org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$247/1666607455
+ 937:             1             16  org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$249/166794956
+ 938:             1             16  org.junit.jupiter.engine.descriptor.ClassExtensionContext$$Lambda$241/2087885397
+ 939:             1             16  org.junit.jupiter.engine.descriptor.DisplayNameUtils$$Lambda$75/770911223
+ 940:             1             16  org.junit.jupiter.engine.descriptor.DisplayNameUtils$$Lambda$76/1392906938
+ 941:             1             16  org.junit.jupiter.engine.descriptor.ExtensionUtils$$Lambda$195/288994035
+ 942:             1             16  org.junit.jupiter.engine.descriptor.ExtensionUtils$$Lambda$196/404214852
+ 943:             1             16  org.junit.jupiter.engine.descriptor.ExtensionUtils$$Lambda$197/1822971466
+ 944:             1             16  org.junit.jupiter.engine.descriptor.ExtensionUtils$$Lambda$199/957465255
+ 945:             1             16  org.junit.jupiter.engine.descriptor.ExtensionUtils$$Lambda$251/2127036371
+ 946:             1             16  org.junit.jupiter.engine.descriptor.JupiterTestDescriptor$$Lambda$173/1125381564
+ 947:             1             16  org.junit.jupiter.engine.descriptor.JupiterTestDescriptor$$Lambda$84/867398280
+ 948:             1             16  org.junit.jupiter.engine.descriptor.JupiterTestDescriptor$$Lambda$86/843467284
+ 949:             1             16  org.junit.jupiter.engine.descriptor.JupiterTestDescriptor$$Lambda$87/1313532469
+ 950:             1             16  org.junit.jupiter.engine.descriptor.JupiterTestDescriptor$$Lambda$88/339924917
+ 951:             1             16  org.junit.jupiter.engine.descriptor.MethodBasedTestDescriptor$$Lambda$145/750468423
+ 952:             1             16  org.junit.jupiter.engine.descriptor.MethodExtensionContext$$Lambda$259/1549725679
+ 953:             1             16  org.junit.jupiter.engine.descriptor.TestInstanceLifecycleUtils$$Lambda$90/225290371
+ 954:             1             16  org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor$$Lambda$102/624271064
+ 955:             1             16  org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor$$Lambda$252/712609105
+ 956:             1             16  org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor$$Lambda$257/1793436274
+ 957:             1             16  org.junit.jupiter.engine.discovery.DiscoverySelectorResolver$$Lambda$30/1995616381
+ 958:             1             16  org.junit.jupiter.engine.discovery.DiscoverySelectorResolver$$Lambda$31/1883919084
+ 959:             1             16  org.junit.jupiter.engine.discovery.DiscoverySelectorResolver$$Lambda$32/1150538133
+ 960:             1             16  org.junit.jupiter.engine.discovery.DiscoverySelectorResolver$$Lambda$33/662822946
+ 961:             1             16  org.junit.jupiter.engine.discovery.DiscoverySelectorResolver$$Lambda$45/1805013491
+ 962:             1             16  org.junit.jupiter.engine.discovery.MethodFinder
+ 963:             1             16  org.junit.jupiter.engine.discovery.MethodOrderingVisitor$$Lambda$114/1641313620
+ 964:             1             16  org.junit.jupiter.engine.discovery.MethodOrderingVisitor$$Lambda$115/252651381
+ 965:             1             16  org.junit.jupiter.engine.discovery.MethodSelectorResolver$$Lambda$65/1608230649
+ 966:             1             16  org.junit.jupiter.engine.discovery.MethodSelectorResolver$$Lambda$66/282432134
+ 967:             1             16  org.junit.jupiter.engine.discovery.predicates.IsInnerClass
+ 968:             1             16  org.junit.jupiter.engine.discovery.predicates.IsPotentialTestContainer
+ 969:             1             16  org.junit.jupiter.engine.execution.ConditionEvaluator
+ 970:             1             16  org.junit.jupiter.engine.execution.ConditionEvaluator$$Lambda$232/1390869998
+ 971:             1             16  org.junit.jupiter.engine.execution.DefaultTestInstances
+ 972:             1             16  org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall$$Lambda$103/21257599
+ 973:             1             16  org.junit.jupiter.engine.execution.InvocationInterceptorChain
+ 974:             1             16  org.junit.jupiter.engine.extension.DisabledCondition
+ 975:             1             16  org.junit.jupiter.engine.extension.ExtensionRegistry$$Lambda$212/1010856212
+ 976:             1             16  org.junit.jupiter.engine.extension.MutableExtensionRegistry$$Lambda$177/1010931249
+ 977:             1             16  org.junit.jupiter.engine.extension.MutableExtensionRegistry$$Lambda$178/1099855928
+ 978:             1             16  org.junit.jupiter.engine.extension.RepeatedTestExtension
+ 979:             1             16  org.junit.jupiter.engine.extension.TempDirectory
+ 980:             1             16  org.junit.jupiter.engine.extension.TempDirectory$$Lambda$237/1577592551
+ 981:             1             16  org.junit.jupiter.engine.extension.TempDirectory$$Lambda$255/934275857
+ 982:             1             16  org.junit.jupiter.engine.extension.TestInfoParameterResolver
+ 983:             1             16  org.junit.jupiter.engine.extension.TestReporterParameterResolver
+ 984:             1             16  org.junit.jupiter.engine.extension.TimeoutConfiguration$$Lambda$263/1162918744
+ 985:             1             16  org.junit.jupiter.engine.extension.TimeoutConfiguration$$Lambda$266/1226020905
+ 986:             1             16  org.junit.jupiter.engine.extension.TimeoutDurationParser
+ 987:             1             16  org.junit.jupiter.engine.extension.TimeoutExtension
+ 988:             1             16  org.junit.jupiter.engine.extension.TimeoutExtension$$Lambda$239/1961173763
+ 989:             1             16  org.junit.jupiter.engine.extension.TimeoutExtension$$Lambda$260/982757413
+ 990:             1             16  org.junit.jupiter.engine.extension.TimeoutExtension$$Lambda$261/489349054
+ 991:             1             16  org.junit.jupiter.engine.support.OpenTest4JAndJUnit4AwareThrowableCollector$$Lambda$174/550668305
+ 992:             1             16  org.junit.jupiter.engine.support.OpenTest4JAndJUnit4AwareThrowableCollector$$Lambda$175/1552978964
+ 993:             1             16  org.junit.platform.commons.util.AnnotationUtils$$Lambda$106/1143371233
+ 994:             1             16  org.junit.platform.commons.util.AnnotationUtils$$Lambda$107/1634132079
+ 995:             1             16  org.junit.platform.commons.util.AnnotationUtils$$Lambda$108/1239548589
+ 996:             1             16  org.junit.platform.commons.util.ClassNamePatternFilterUtils$$Lambda$226/71399214
+ 997:             1             16  org.junit.platform.commons.util.ClassNamePatternFilterUtils$$Lambda$227/1932831450
+ 998:             1             16  org.junit.platform.commons.util.ClassNamePatternFilterUtils$$Lambda$228/496729294
+ 999:             1             16  org.junit.platform.commons.util.ClassNamePatternFilterUtils$$Lambda$229/1302227152
+1000:             1             16  org.junit.platform.commons.util.ClassNamePatternFilterUtils$$Lambda$230/1122606666
+1001:             1             16  org.junit.platform.commons.util.ClassNamePatternFilterUtils$$Lambda$5/1635985705
+1002:             1             16  org.junit.platform.commons.util.ClassNamePatternFilterUtils$$Lambda$6/695682681
+1003:             1             16  org.junit.platform.commons.util.ClassNamePatternFilterUtils$$Lambda$7/1073502961
+1004:             1             16  org.junit.platform.commons.util.ClassNamePatternFilterUtils$$Lambda$8/1582797472
+1005:             1             16  org.junit.platform.commons.util.ClassUtils$$Lambda$101/2142080121
+1006:             1             16  org.junit.platform.commons.util.CollectionUtils$$Lambda$207/961712517
+1007:             1             16  org.junit.platform.commons.util.ReflectionUtils$$Lambda$11/1308244637
+1008:             1             16  org.junit.platform.commons.util.ReflectionUtils$$Lambda$12/985397764
+1009:             1             16  org.junit.platform.commons.util.ReflectionUtils$$Lambda$13/837764579
+1010:             1             16  org.junit.platform.commons.util.ReflectionUtils$$Lambda$14/1597249648
+1011:             1             16  org.junit.platform.commons.util.ReflectionUtils$$Lambda$202/365181913
+1012:             1             16  org.junit.platform.commons.util.ReflectionUtils$$Lambda$203/1031061344
+1013:             1             16  org.junit.platform.commons.util.ReflectionUtils$$Lambda$204/1327536153
+1014:             1             16  org.junit.platform.commons.util.ReflectionUtils$$Lambda$215/1998767043
+1015:             1             16  org.junit.platform.commons.util.ReflectionUtils$$Lambda$245/771775563
+1016:             1             16  org.junit.platform.commons.util.ReflectionUtils$$Lambda$246/1164440413
+1017:             1             16  org.junit.platform.commons.util.ReflectionUtils$$Lambda$267/156856360
+1018:             1             16  org.junit.platform.commons.util.ReflectionUtils$$Lambda$57/140799417
+1019:             1             16  org.junit.platform.commons.util.ReflectionUtils$$Lambda$58/926370398
+1020:             1             16  org.junit.platform.commons.util.ReflectionUtils$$Lambda$59/767010715
+1021:             1             16  org.junit.platform.commons.util.ReflectionUtils$$Lambda$60/1391942103
+1022:             1             16  org.junit.platform.engine.CompositeFilter$1
+1023:             1             16  org.junit.platform.engine.CompositeFilter$1$$Lambda$40/1373810119
+1024:             1             16  org.junit.platform.engine.EngineDiscoveryListener$1
+1025:             1             16  org.junit.platform.engine.EngineExecutionListener$1
+1026:             1             16  org.junit.platform.engine.TestDescriptor$$Lambda$117/664457955
+1027:             1             16  org.junit.platform.engine.UniqueIdFormat$$Lambda$22/1549409129
+1028:             1             16  org.junit.platform.engine.UniqueIdFormat$$Lambda$23/727001376
+1029:             1             16  org.junit.platform.engine.UniqueIdFormat$$Lambda$24/660143728
+1030:             1             16  org.junit.platform.engine.UniqueIdFormat$$Lambda$25/523691575
+1031:             1             16  org.junit.platform.engine.UniqueIdFormat$$Lambda$26/1468303011
+1032:             1             16  org.junit.platform.engine.UniqueIdFormat$$Lambda$27/1427810650
+1033:             1             16  org.junit.platform.engine.discovery.MethodSelector$$Lambda$55/1957502751
+1034:             1             16  org.junit.platform.engine.discovery.MethodSelector$$Lambda$63/789219251
+1035:             1             16  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution$$Lambda$110/341853399
+1036:             1             16  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution$$Lambda$50/1154002927
+1037:             1             16  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolution$DefaultContext$$Lambda$97/733672688
+1038:             1             16  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolver$$Lambda$42/592688102
+1039:             1             16  org.junit.platform.engine.support.discovery.EngineDiscoveryRequestResolver$Builder$$Lambda$123/1663619914
+1040:             1             16  org.junit.platform.engine.support.discovery.SelectorResolver$Match$$Lambda$46/1166151249
+1041:             1             16  org.junit.platform.engine.support.hierarchical.LockManager
+1042:             1             16  org.junit.platform.engine.support.hierarchical.LockManager$$Lambda$168/436532993
+1043:             1             16  org.junit.platform.engine.support.hierarchical.LockManager$$Lambda$170/1383524016
+1044:             1             16  org.junit.platform.engine.support.hierarchical.NodeTestTask$$Lambda$192/154482552
+1045:             1             16  org.junit.platform.engine.support.hierarchical.NodeTreeWalker
+1046:             1             16  org.junit.platform.engine.support.hierarchical.NodeUtils$1
+1047:             1             16  org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService
+1048:             1             16  org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService$$Lambda$194/820914198
+1049:             1             16  org.junit.platform.launcher.LauncherDiscoveryListener$1
+1050:             1             16  org.junit.platform.launcher.TestIdentifier$$Lambda$142/1132967838
+1051:             1             16  org.junit.platform.launcher.TestPlan$$Lambda$134/27319466
+1052:             1             16  org.junit.platform.launcher.TestPlan$$Lambda$143/1853205005
+1053:             1             16  org.junit.platform.launcher.core.DefaultLauncher$$Lambda$3/1525262377
+1054:             1             16  org.junit.platform.launcher.core.EngineDiscoveryOrchestrator$$Lambda$132/846947180
+1055:             1             16  org.junit.platform.launcher.core.EngineDiscoveryOrchestrator$$Lambda$133/1172131546
+1056:             1             16  org.junit.platform.launcher.core.EngineDiscoveryOrchestrator$$Lambda$19/1344645519
+1057:             1             16  org.junit.platform.launcher.core.EngineDiscoveryResultValidator
+1058:             1             16  org.junit.platform.launcher.core.EngineExecutionOrchestrator
+1059:             1             16  org.junit.platform.launcher.core.EngineExecutionOrchestrator$$Lambda$161/2131952342
+1060:             1             16  org.junit.platform.launcher.core.EngineExecutionOrchestrator$$Lambda$162/671467883
+1061:             1             16  org.junit.platform.launcher.core.LauncherDiscoveryRequestBuilder$$Lambda$16/1072601481
+1062:             1             16  org.junit.platform.launcher.core.LauncherDiscoveryRequestBuilder$$Lambda$17/507084503
+1063:             1             16  org.junit.platform.launcher.core.LauncherFactory$$Lambda$10/1121454968
+1064:             1             16  org.junit.platform.launcher.core.LauncherFactory$$Lambda$2/152005629
+1065:             1             16  org.junit.platform.launcher.core.LauncherFactory$$Lambda$9/182738614
+1066:             1             16  org.junit.platform.launcher.core.ServiceLoaderTestEngineRegistry
+1067:             1             16  org.junit.platform.launcher.core.ServiceLoaderTestExecutionListenerRegistry
+1068:             1             16  org.junit.platform.launcher.core.ServiceLoaderTestExecutionListenerRegistry$$Lambda$4/1681595665
+1069:             1             16  org.junit.platform.launcher.core.TestExecutionListenerRegistry$$Lambda$157/557023567
+1070:             1             16  org.junit.platform.launcher.core.TestExecutionListenerRegistry$$Lambda$158/597190999
+1071:             1             16  org.junit.platform.launcher.core.TestExecutionListenerRegistry$$Lambda$159/603443293
+1072:             1             16  org.junit.platform.launcher.core.TestExecutionListenerRegistry$CompositeTestExecutionListener
+1073:             1             16  org.junit.platform.launcher.core.TestExecutionListenerRegistry$CompositeTestExecutionListener$$Lambda$163/407697359
+1074:             1             16  org.junit.platform.launcher.core.TestExecutionListenerRegistry$CompositeTestExecutionListener$$Lambda$164/802600647
+1075:             1             16  org.junit.platform.launcher.listeners.discovery.AbortOnFailureLauncherDiscoveryListener
+1076:             1             16  org.junit.platform.launcher.listeners.discovery.AbortOnFailureLauncherDiscoveryListener$$Lambda$120/1800659519
+1077:             1             16  org.junit.vintage.engine.JUnit4VersionCheck$$Lambda$121/1652149987
+1078:             1             16  org.junit.vintage.engine.VintageTestEngine
+1079:             1             16  org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveJUnit4Builder
+1080:             1             16  org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$NullIgnoredBuilder
+1081:             1             16  org.junit.vintage.engine.discovery.IsPotentialJUnit4TestClass
+1082:             1             16  org.junit.vintage.engine.discovery.IsPotentialJUnit4TestMethod
+1083:             1             16  org.junit.vintage.engine.discovery.MethodSelectorResolver
+1084:             1             16  org.junit.vintage.engine.discovery.VintageDiscoverer$$Lambda$122/436546048
+1085:             1             16  sun.misc.ASCIICaseInsensitiveComparator
+1086:             1             16  sun.misc.Launcher
+1087:             1             16  sun.misc.Launcher$BootClassPathHolder$1
+1088:             1             16  sun.misc.Launcher$ExtClassLoader$1
+1089:             1             16  sun.misc.Launcher$Factory
+1090:             1             16  sun.misc.Perf
+1091:             1             16  sun.misc.Perf$GetPerfAction
+1092:             1             16  sun.misc.PostVMInitHook$2
+1093:             1             16  sun.misc.Unsafe
+1094:             1             16  sun.net.www.protocol.file.Handler
+1095:             1             16  sun.net.www.protocol.jar.JarFileFactory
+1096:             1             16  sun.reflect.GeneratedConstructorAccessor1
+1097:             1             16  sun.reflect.GeneratedConstructorAccessor2
+1098:             1             16  sun.reflect.GeneratedConstructorAccessor3
+1099:             1             16  sun.reflect.GeneratedConstructorAccessor4
+1100:             1             16  sun.reflect.ReflectionFactory
+1101:             1             16  sun.security.util.AbstractAlgorithmConstraints$1
+1102:             1             16  sun.security.util.AlgorithmDecomposer
+1103:             1             16  sun.security.util.DisabledAlgorithmConstraints$Constraints
+1104:             1             16  sun.usagetracker.UsageTrackerClient
+1105:             1             16  sun.util.locale.provider.AuxLocaleProviderAdapter$NullProvider
+1106:             1             16  sun.util.locale.provider.JRELocaleProviderAdapter$1
+1107:             1             16  sun.util.locale.provider.SPILocaleProviderAdapter
+1108:             1             16  sun.util.logging.LoggingSupport$1
+1109:             1             16  sun.util.logging.PlatformLogger$1
+1110:             1             16  sun.util.resources.LocaleData
+1111:             1             16  sun.util.resources.LocaleData$LocaleDataResourceBundleControl
+Total        186374       24260344

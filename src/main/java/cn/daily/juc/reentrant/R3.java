@@ -35,6 +35,7 @@ public class R3 {
                 latch.countDown();
 
             });
+
         }
 
         for (int i=0;i<threads.length;i++){

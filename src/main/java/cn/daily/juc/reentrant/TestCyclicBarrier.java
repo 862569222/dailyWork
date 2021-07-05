@@ -16,10 +16,16 @@ public class TestCyclicBarrier {
     });
 
     public static void main(String[] args) {
+        String format = "d%s-p%s";
+        String format1 = String.format(format, "1", "2");
+        System.out.println(format1);
+
         for (int i= 0;i<100;i++){
             new Thread(()->{
                 try {
                     barrier.await();
+                    Thread.sleep(1000);
+                    System.out.println("执行逻辑。。。。");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } catch (BrokenBarrierException e) {

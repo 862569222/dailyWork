@@ -98,6 +98,7 @@ public class C2 {
         for (Thread thread:threads) thread.join();
         long end3 = System.currentTimeMillis();
 
+        System.out.println(C2.count1.sum());
         System.out.println("longAdder:"+count1+" , time:"+(end3-start3));
 
     }

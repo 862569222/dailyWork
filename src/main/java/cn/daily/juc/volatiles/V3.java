@@ -7,7 +7,7 @@ import java.util.List;
  * volatile不能保证多个线程共同修改数据带来的数据不一致问题，volatile不能代替synchronized
  */
 public class V3 {
-    private volatile int count = 0;
+    private /*volatile*/ int count = 0;
     
     public /*synchronized*/ void m(){
         for (int i=0;i<10000;i++) count++;
