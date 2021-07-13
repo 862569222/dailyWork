@@ -36,4 +36,9 @@ public class Student {
     public void setDept(String dept) {
         this.dept = dept;
     }
+
+
+    private void aaa(){
+
+    }
 }

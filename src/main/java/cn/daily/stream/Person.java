@@ -8,17 +8,22 @@ package cn.daily.stream;
  * @date 2021/3/7 21:36
  */
 
-public class Person {
+public class Person  implements Comparable<Person>{
     private int id;
     private String name;
     private String sex;
     private int age;
 
-    public Person(int id, String name, String sex, int age) {
+    public Person(int id, String name, String sex,int age) {
         this.id = id;
         this.name = name;
         this.sex = sex;
         this.age = age;
+    }
+    public Person(int id, String name, String sex) {
+        this.id = id;
+        this.name = name;
+        this.sex = sex;
     }
 
     public int getId() {
@@ -61,5 +66,11 @@ public class Person {
                 ", sex='" + sex + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+
+    @Override
+    public int compareTo(Person o) {
+        return this.id <o.id ? 1 :-1;
     }
 }

@@ -3,6 +3,7 @@ package cn.daily.string;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 
@@ -54,6 +55,7 @@ public class TestString {
         System.out.println(a==c);
         System.out.println(a==b);
         HashSet aa = new HashSet();
+        Collections.sort(new ArrayList());
     }
 
 }
